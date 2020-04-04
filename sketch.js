@@ -1,14 +1,14 @@
 function setup() {
-   createCanvas(2400,800);
+   createCanvas(1920,600);
 }
 
 function draw() {
    background(255);
    noStroke();
    fill(250,80,100);
-   circle(width/2,400,100);
+   circle(width/2,300,100);
    push();
-   translate(width/2,400);
+   translate(width/2,300);
    rotate(radians(frameCount));
    noStroke();
    fill(100,200,200);
